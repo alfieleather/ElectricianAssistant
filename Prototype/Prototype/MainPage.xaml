@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prototype.MainPage">
+
+    <StackLayout>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="3*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Welcome to Electrician Assistant" FontSize="Large" TextColor="Black" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" VerticalOptions="Center" HorizontalOptions="Center" Padding="10,10,10,10"/>
+
+            <Button Text="Equation Page 1" 
+                BackgroundColor="Yellow" TextColor="Black" 
+                Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1"
+                Clicked="EP1"
+                />
+
+            <Button Text="Equation Page 2" 
+                BackgroundColor="Yellow" TextColor="Black" 
+                Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1"
+                Clicked="EP2"
+                />
+
+            <Button Text="Equation Page 3" 
+                BackgroundColor="Yellow" TextColor="Black" 
+                Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="1"
+                Clicked="EP3"
+                />
+
+            <Button Text="Equation Page 4" 
+                BackgroundColor="Yellow" TextColor="Black" 
+                Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1"
+                Clicked="EP4"
+                />
+
+            <Button Text="Thesaurus" 
+                BackgroundColor="Yellow" TextColor="Black" 
+                Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="1"
+                Clicked="Thesaurus"
+                />
+
+            <Button Text="Settings" 
+                BackgroundColor="Yellow" TextColor="Black" 
+                Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1"
+                Clicked="Settings"
+                />
+
+        </Grid>
+
+    </StackLayout>
+
+</ContentPage>
